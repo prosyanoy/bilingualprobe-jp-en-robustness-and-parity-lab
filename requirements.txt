@@ -1,0 +1,9 @@
+numpy>=1.26
+scikit-learn>=1.4
+pandas>=2.0
+streamlit>=1.35
+pytest>=8.0
+# Optional: the neural model uses PyTorch when installed, else scikit-learn's MLPClassifier.
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# Optional: multilingual sentence embeddings (BP_USE_EMBEDDINGS=1).
+#   pip install sentence-transformers
